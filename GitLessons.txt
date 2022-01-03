@@ -26,3 +26,14 @@ git checkout newFeature //przełączenie się do brancha newFeature
 łączenie zmian między branchami
 git checkout master //przepinam się na brancha master
 git merge newFeature //będąc na masterze merdzuję zmiany z brancha newFeature
+
+merdzowanie i konflikt - zmiany w tym samym pliku na mastere i na branchu
+git checkout master //przepinam się na brancha master
+git merge newFeature //będąc na masterze merdzuję zmiany z brancha newFeature
+//otwiram plik newFeature i wykonuję zmiany, zapisuję
+git add newFeature.txt //dodaję plik do monitorowanych
+git commit -a -m "komentarz do komutu, rozwiązanie konfliktu"
+
+
+
+
