@@ -1,1 +1,1 @@
-to jest zmiana na masterze test
+zmiany w pliky newFeature w brachu newFeature
