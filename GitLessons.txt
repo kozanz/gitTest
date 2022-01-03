@@ -1,5 +1,5 @@
 git status //spr statusu repozytorium
-git add "nazwa pliku" //dodanie pliku o wskazanej nazwie aby był monitorowany przez git
+git add "nazwa pliku" //dodanie pliku o wskazanej nazwie aby był (trakowany) monitorowany przez git
 git add . //dodanie wszystkich nowych plików w które pojawiły sie w repozytorium aby były monitorowane
 git config --global user.email "test@gmail.com" //konfiguracja użytkownika który dodaje commit dodanie email
 git config --global user.name "tester name" // konfiguracja użytkonwnika który dodaje commit dodanie imienia i nazwiska
@@ -12,5 +12,8 @@ git checkout master //powrót na mastera
 git clean -n //pokazuje jakie nietrakowane pliki zostaną usunięte
 git clean -f // usunięcie nietrakowanych plików
 git reset HEAD nazwapliku.txt //usunięcie trakowania wskazanego pliku
+
+zarządzanie komitami
+
 
  	
