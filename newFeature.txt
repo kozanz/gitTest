@@ -1,1 +1,1 @@
-test
+zmiany w pliky newFeature w brachu newFeature
