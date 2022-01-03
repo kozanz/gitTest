@@ -1,0 +1,11 @@
+git status //spr statusu repozytorium
+git add "nazwa pliku" //dodanie pliku o wskazanej nazwie aby był monitorowany przez git
+git add . //dodanie wszystkich nowych plików w które pojawiły sie w repozytorium aby były monitorowane
+git config --global user.email "test@gmail.com" //konfiguracja użytkownika który dodaje commit dodanie email
+git config --global user.name "tester name" // konfiguracja użytkonwnika który dodaje commit dodanie imienia i nazwiska
+git commit -m 'komentarz' //commit zmian do repozytprium ()
+git commit -a -m 'konieczny komentarz do zmian' //dodanie pliku do repo i trakowanie zmian w jednej komendzie
+git log //historia komita i komentarz
+git log -p // histora jakie zmiany były prezentowana jak zmieniał się plik.
+git checkout 11f8c9f71ee9bb27723f85bc634f81296613c6a5 //przepięcie się do innego commita, numer komita który mozn znaleść za pomocą git log
+git checkout master //powrót na mastera
