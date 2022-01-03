@@ -14,6 +14,15 @@ git clean -f // usunięcie nietrakowanych plików
 git reset HEAD nazwapliku.txt //usunięcie trakowania wskazanego pliku
 
 zarządzanie komitami
+git revert f8c9f71ee9bb27723f85bc634f81296613c6a5 //wycofanie komitu, zachowanie historii 
+git reset --hard f8c9f71ee9bb27723f85bc634f81296613c6a5 //cofnięcie zmian bez możliwości powrotu, usunięcie histori komitów.
 
+Tworzenie nowego brancha
+git checkout -b newFeature //utwórz branch o nazwie newFeature i przełącz na nowy branch
+git branch //wyświetla listę dostępnych branchy i podświetla na zielono obecnie wybranyi
+git checkout master //powrót do głównego brancha
+git checkout newFeature //przełączenie się do brancha newFeature
 
- 	
+łączenie zmian między branchami
+git checkout master //przepinam się na brancha master
+git merge newFeature //będąc na masterze merdzuję zmiany z brancha newFeature
